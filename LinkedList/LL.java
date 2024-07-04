@@ -5,7 +5,7 @@ public class LL {
     LL() {
         this.size = 0;
     }
-    
+
     class Node {
         String data;
         Node next;
@@ -35,7 +35,7 @@ public class LL {
     // add-last
     public void addLast(String data) {
         Node newNode = new Node(data);
-        if (head == null) {0
+        if (head == null) {
             head = newNode; // Assign the new node as head if the list is empty
             return;
         }
